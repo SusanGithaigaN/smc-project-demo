@@ -1,0 +1,11 @@
+.home{
+    /* height: 80vh; */
+    margin: 0%;
+}
+#sparkle{
+    background-color: aliceblue;
+}
+#img-small{
+    width: 400px;
+    height: 300px;
+}
