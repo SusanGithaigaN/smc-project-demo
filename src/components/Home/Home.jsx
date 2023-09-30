@@ -2,6 +2,7 @@
 import './Home.css'
 import image2 from '../images/image2.svg'
 import image1 from '../images/image1.svg'
+import About from '../About/About'
 export default function Home() {
   return (
     // <div className='home'>
@@ -23,6 +24,7 @@ export default function Home() {
           <img src={image1} className='img-fluid' alt='image 1' id='img-small' />
         </div>
       </div>
+      <About />
     </div>
     // </div>
   )
