@@ -3,6 +3,7 @@ import './Home.css'
 import image2 from '../images/image2.svg'
 import image1 from '../images/image1.svg'
 import About from '../About/About'
+import Contact from '../Contact/Contact'
 export default function Home() {
   return (
     // <div className='home'>
@@ -25,6 +26,7 @@ export default function Home() {
         </div>
       </div>
       <About />
+      <Contact />
     </div>
     // </div>
   )
