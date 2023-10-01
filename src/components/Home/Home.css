@@ -1,12 +1,42 @@
-.home{
-    height: fit-content;
-    /* margin: 0%; */
+/* #centered{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  } */
+#img-small {
+    /* width: 400px; */
+    /* height: 300px; */
 }
-#img-small{
-    width: 400px;
-    height: 300px;
+
+#img-big {
+    width: 350px;
+    height: 380px;
 }
-#img-big{
-    width: 450px;
-    height: 350px;
+
+/* #images{
+    background-image: url('../images//image3.svg');
+    background-repeat: no-repeat;
+} */
+
+
+/* responsiveness */
+@media screen and (max-width :769px) {
+    .col-4 {
+        /* flex: 0 0 auto; */
+        /* width: 100%; */
+    }
+    .vh-100 {
+        height: fit-content !important;
+    }
+    .p-5 {
+        padding: 1rem !important;
+    }
+    #img-big {
+        width: 50%;
+        height: 50%;
+    }
+    #blue{
+        padding: 0%;
+    }
 }

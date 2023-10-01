@@ -1,3 +1,10 @@
-/* #about{
-
-} */
+.about{
+    height: fit-content;
+    /* background-image: url('../images/dots.jpg'); */
+}
+.image{
+        box-sizing: border-box;
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+}

@@ -3,10 +3,11 @@ import './Contact.css'
 
 export default function Contact() {
     return (
-        <div className='container' style={{ height: '80vh' }}>
-            <div className="row">
+        <div className='container-fluid pt-5 pb-5' style={{ height: 'fitContent' }}>
+            <div className="row justify-content-center">
+                {/* <p className='fs-1'>Contact</p> */}
+                <div className="col-4">
                 <p className='fs-1'>Contact</p>
-                <div className="col">
                     {/* contact form */}
                     <form>
                         <div className="mb-3">
@@ -28,8 +29,8 @@ export default function Contact() {
                         <button type="button" className="btn fw-bold rounded-pill mt-5" id='but-ton'>Send</button>
                     </form>
                 </div>
-                <div className="col">
-                    <div className="card w-75" id='sparkle'>
+                <div className="col-4">
+                    <div className="card" id='sparkle'>
                         <div className="card-body">
                             <h5 className="card-title">Email:</h5>
                             <p className="card-text">For more information, send an email to:</p>
@@ -37,7 +38,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <br />
-                    <div className="card w-75" id='sparkle'>
+                    <div className="card" id='sparkle'>
                         <div className="card-body">
                             <h5 className="card-title">Phone:</h5>
                             <p className="card-text">Call us at:</p>
@@ -45,7 +46,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <br />
-                    <div className="card w-75" id='sparkle'>
+                    <div className="card" id='sparkle'>
                         <div className="card-body">
                             <h5 className="card-title">Office:</h5>
                             <p className="card-text">We are located at:</p>

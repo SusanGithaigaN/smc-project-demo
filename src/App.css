@@ -1,3 +1,4 @@
+/* #root{} */
 #sparkle{
   background-color: aliceblue;
 }
@@ -6,4 +7,14 @@
 }
 #but-ton{
   background-color: #FBE418;
+}
+#centered{
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: left;
+}
+
+#small-text{
+  font-size: 13px;
 }
