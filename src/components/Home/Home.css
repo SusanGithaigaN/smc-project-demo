@@ -33,8 +33,11 @@
         padding: 1rem !important;
     }
     #img-big {
+        width: 20%;
+        padding: 0%;
+    }
+    #img-small {
         width: 50%;
-        height: 50%;
     }
     #blue{
         padding: 0%;

@@ -11,7 +11,7 @@ export default function About() {
                 </p>
             </div>
             <div id='sparkle'>
-                <div className="row" style={{ height: '250px', paddingTop: '80px' }} id='centered'>
+                <div className="row pb-5" style={{ paddingTop: '80px' }} id='centered'>
                     <div className="col-6">
                         <p className='fs-2'>
                             Check out our services
@@ -35,7 +35,7 @@ export default function About() {
                             <p className="card-text text-center">When you work with Almaid Cleaners, you can breathe easy because your home will soon sparkle.</p>
                             <p className="card-text text-center">One Time / Recurring</p>
                             <div className="row justify-content-center">
-                                <div className="col-4">
+                                <div className="col-sm-4">
                                     <ul>
                                         <li>Kitchen</li>
                                         <li>Bathrooms</li>
@@ -46,7 +46,7 @@ export default function About() {
                                         <li>Appliances (Oven & Fridge)</li>
                                     </ul>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-sm-4">
                                     <ul>
                                         <li>Hardwood & Carpet Floors</li>
                                         <li>Move in / Move out</li>
@@ -68,14 +68,14 @@ export default function About() {
                             <p className="card-text text-center">Our referred cleaners also provide professional AirBNB & Short Term Rental cleaning with a wide variety of cleaning methods, chemicals, and equipment to facilitate and expedite the cleaning process.</p>
                             <p className="card-text text-center">One Time / Recurring</p>
                             <div className="row justify-content-center">
-                                <div className="col-4">
+                                <div className="col-sm-4">
                                     <ul>
                                         <li>You Can Give a Checklist</li>
                                         <li>They typically can make the unit look great</li>
                                         <li>Before or After Each Guest</li>
                                     </ul>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-sm-4">
                                     <ul>
                                         <li>Laundry</li>
                                         <li>Changing Beds</li>

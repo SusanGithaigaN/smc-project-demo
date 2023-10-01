@@ -6,7 +6,7 @@ export default function Contact() {
         <div className='container-fluid pt-5 pb-5' style={{ height: 'fitContent' }}>
             <div className="row justify-content-center">
                 {/* <p className='fs-1'>Contact</p> */}
-                <div className="col-4">
+                <div className="col-sm-4">
                 <p className='fs-1'>Contact</p>
                     {/* contact form */}
                     <form>
@@ -29,7 +29,7 @@ export default function Contact() {
                         <button type="button" className="btn fw-bold rounded-pill mt-5" id='but-ton'>Send</button>
                     </form>
                 </div>
-                <div className="col-4">
+                <div className="col-sm-4">
                     <div className="card" id='sparkle'>
                         <div className="card-body">
                             <h5 className="card-title">Email:</h5>
