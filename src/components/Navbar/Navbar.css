@@ -1,5 +1,18 @@
-.nav-text{
+.nav-text {
     color: #00008B !important;
     /* font-weight: bolder; */
     font-size: 20px;
+}
+#btn{
+    background-color: #FBE418;
+}
+#btn:hover {
+    box-shadow: 0 0 0 5px #00008B !important;
+    background-color: #00008B !important;
+    color: white;
+}
+
+#btn:active {
+    /* background-color: darkblue; */
+    /* color: white; */
 }

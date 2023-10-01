@@ -28,7 +28,7 @@ export default function About() {
             {/* cards */}
             <div className="row" id='centered'>
                 <div className="col-sm-6">
-                    <div className="card shadow-none">
+                    <div className="card shadow-sm">
                         <img src={illustration} className="rounded mx-auto d-block image" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title " id='blue'><strong>Residential <br /> </strong>Cleaning</h5>
@@ -55,13 +55,13 @@ export default function About() {
                                     </ul>
                                 </div>
                             </div>
-                            <button type="button" className="btn fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
+                            <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
                         </div>
                     </div>
                 </div>
 
                 <div className="col-sm-6">
-                    <div className="card shadow-none">
+                    <div className="card shadow-sm">
                         <img src={office} className="rounded mx-auto d-block image" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title " id='blue'><strong>AirBNB<br /> </strong>Cleaning</h5>
@@ -84,7 +84,7 @@ export default function About() {
                                     </ul>
                                 </div>
                             </div>
-                            <button type="button" className="btn fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
+                            <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
                         </div>
                     </div>
                 </div>
