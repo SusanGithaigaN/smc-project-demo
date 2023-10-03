@@ -9,10 +9,6 @@ import {
     MDBNavbarItem,
     MDBNavbarLink,
     MDBBtn,
-    // MDBDropdown,
-    // MDBDropdownToggle,
-    // MDBDropdownMenu,
-    // MDBDropdownItem,
     MDBCollapse
 } from 'mdb-react-ui-kit';
 import './Navbar.css'
@@ -23,7 +19,6 @@ export default function Navbar() {
         <div id='centered'>
             <MDBNavbar expand='lg' light bgColor='light' className='shadow-none'>
                 <MDBContainer fluid>
-                    {/* <MDBNavbarBrand href='#'>Almaid</MDBNavbarBrand> */}
                     <MDBNavbarBrand href='/' className='text-uppercase fw-bold'>
                         <img
                             src='https://bit.ly/3nnsND0'
@@ -57,14 +52,9 @@ export default function Navbar() {
                                 <MDBNavbarLink active aria-current='page' href='#' className='nav-text'>Blog</MDBNavbarLink>
                             </MDBNavbarItem>
                         </MDBNavbarNav>
-
-                        {/* <form className='d-flex input-group w-auto'>
-                        <input type='search' className='form-control' placeholder='Type query' aria-label='Search' /> */}
-                        {/* <MDBBtn type='button' className='btn btn-outline-primary rounded-pill fw-bold' id='btn'>Contact</MDBBtn> */}
                         <a href='#contact'>
                             <MDBBtn rounded className='mx-2 fw-bold' color='secondary' id='btn'>Contact</MDBBtn>
                         </a>
-                        {/* </form> */}
                     </MDBCollapse>
                 </MDBContainer>
             </MDBNavbar>

@@ -5,7 +5,7 @@ import Contact from '../Contact/Contact'
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="almaid">
       <Landing />
       <About />
       <Contact />

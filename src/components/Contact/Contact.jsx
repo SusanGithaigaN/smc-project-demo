@@ -1,8 +1,5 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import './Contact.css'
-
-// emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
 
 const Contact = () => {
     const form = useRef();
@@ -40,11 +37,9 @@ const Contact = () => {
         setErrorMessage(false);
     };
 
-    // export default function Contact() {
     return (
         <div className='container-fluid pt-5 pb-5' style={{ height: 'fitContent' }} id='contact'>
             <div className="row justify-content-center">
-                {/* <p className='fs-1'>Contact</p> */}
                 <div className="col-sm-4">
                     <p className='fs-1'>
                         <i className="fa-solid fa-id-card-clip p-3" id='blue'></i>
@@ -71,9 +66,6 @@ const Contact = () => {
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Email </label>
                             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='youremail@service.com' name="user_email" required />
-                            <div id="emailHelp" className="form-text">
-                                {/* We'll never share your email with anyone else. */}
-                            </div>
                         </div>
                         <div className="form-floating">
                             {/* <p>Message</p> */}

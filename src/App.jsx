@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Nav from './components/Navbar/Nav';
+import Contact from './components/Contact/Contact';
 
 const DashBoard = () => {
   return (
@@ -14,8 +15,8 @@ const DashBoard = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path='/about' element={<About />} />
-        
+        <Route path='#about' element={<About />} />
+        <Route path='#contact' element={<Contact />} />
       </Routes>
       <Footer />
 

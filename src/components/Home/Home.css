@@ -1,9 +1,3 @@
-/* #centered{
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  } */
 #img-small {
     /* width: 400px; */
     /* height: 300px; */
@@ -14,32 +8,31 @@
     height: 380px;
 }
 
-/* #images{
-    background-image: url('../images//image3.svg');
-    background-repeat: no-repeat;
-} */
-
-
 /* responsiveness */
 @media screen and (max-width :769px) {
     .col-4 {
         /* flex: 0 0 auto; */
         /* width: 100%; */
     }
+
     .vh-100 {
         height: fit-content !important;
     }
+
     .p-5 {
         padding: 1rem !important;
     }
+
     #img-big {
         width: 20%;
         padding: 0%;
     }
+
     #img-small {
         width: 50%;
     }
-    #blue{
+
+    #blue {
         padding: 0%;
     }
 }
