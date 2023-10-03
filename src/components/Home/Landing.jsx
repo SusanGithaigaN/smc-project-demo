@@ -18,10 +18,10 @@ export default function Landing() {
             <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton' >View more</button>
           </a>
         </div>
-        <div className="col-sm-4 float-start pt-5">
+        <div className="col-sm-4 float-start pt-5" id='woman'>
           <img src={image2} className='img-fluid' alt='image 2' id='img-big' />
         </div>
-        <div className='col-sm-4 float-end'>
+        <div className='col-sm-4 float-end' id='woman'>
           <img src={image1} className='img-fluid pt-5' alt='image 1' id='img-small' />
         </div>
       </div>

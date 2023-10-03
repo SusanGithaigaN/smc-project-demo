@@ -24,15 +24,18 @@
     }
 
     #img-big {
-        width: 20%;
+        width: 50%;
         padding: 0%;
     }
 
     #img-small {
-        width: 50%;
+        /* width: 50%; */
     }
 
     #blue {
         padding: 0%;
+    }
+    #woman{
+        max-width: 50%;
     }
 }
