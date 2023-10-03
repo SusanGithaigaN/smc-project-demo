@@ -61,7 +61,9 @@ export default function Navbar() {
                         {/* <form className='d-flex input-group w-auto'>
                         <input type='search' className='form-control' placeholder='Type query' aria-label='Search' /> */}
                         {/* <MDBBtn type='button' className='btn btn-outline-primary rounded-pill fw-bold' id='btn'>Contact</MDBBtn> */}
-                        <MDBBtn rounded className='mx-2 fw-bold' color='secondary' id='btn'>Contact</MDBBtn>
+                        <a href='#contact'>
+                            <MDBBtn rounded className='mx-2 fw-bold' color='secondary' id='btn'>Contact</MDBBtn>
+                        </a>
                         {/* </form> */}
                     </MDBCollapse>
                 </MDBContainer>

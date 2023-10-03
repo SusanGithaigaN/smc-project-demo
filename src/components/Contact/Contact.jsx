@@ -8,41 +8,41 @@ const Contact = () => {
     const form = useRef();
     const [showAlert, setShowAlert] = useState(false);
     const [errorMessage, setErrorMessage] = useState(false);
-  
+
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      if (form.current.checkValidity()) {
-  
-        emailjs.sendForm('service_hji58rf', 'template_3aqbfkc', form.current, 'x-CSbTKhgLXtK28nX')
-          .then((result) => {
-            // show success alert
-            setShowAlert(true);
-            // show errors alert
-            setErrorMessage(false);
-            console.log(result.text);
-          })
-          .catch((error) => {
+        e.preventDefault();
+
+        if (form.current.checkValidity()) {
+
+            emailjs.sendForm('service_hji58rf', 'template_3aqbfkc', form.current, 'x-CSbTKhgLXtK28nX')
+                .then((result) => {
+                    // show success alert
+                    setShowAlert(true);
+                    // show errors alert
+                    setErrorMessage(false);
+                    console.log(result.text);
+                })
+                .catch((error) => {
+                    setShowAlert(false);
+                    setErrorMessage(true);
+                    console.log(error.text);
+                });
+        } else {
+            form.current.reportValidity();
             setShowAlert(false);
             setErrorMessage(true);
-            console.log(error.text);
-          });
-      } else {
-        form.current.reportValidity();
-        setShowAlert(false);
-        setErrorMessage(true);
-      }
-      e.target.reset();
-    };
-  
-    const handleInputChange = () => {
-      setShowAlert(false);
-      setErrorMessage(false);
+        }
+        e.target.reset();
     };
 
-// export default function Contact() {
+    const handleInputChange = () => {
+        setShowAlert(false);
+        setErrorMessage(false);
+    };
+
+    // export default function Contact() {
     return (
-        <div className='container-fluid pt-5 pb-5' style={{ height: 'fitContent' }}>
+        <div className='container-fluid pt-5 pb-5' style={{ height: 'fitContent' }} id='contact'>
             <div className="row justify-content-center">
                 {/* <p className='fs-1'>Contact</p> */}
                 <div className="col-sm-4">
@@ -50,18 +50,18 @@ const Contact = () => {
                         <i className="fa-solid fa-id-card-clip p-3" id='blue'></i>
                         Contact
                     </p>
-                                {/* success */}
-            {showAlert && (
-              <div className="alert alert-success" role="alert">
-                Message successfully sent. Thank you!
-              </div>
-            )}
-            {/* errors */}
-            {errorMessage && (
-              <div className="alert alert-danger" role="alert">
-                Invalid message format. Please check your input<i className="fa fa-frown-o" aria-hidden="true" style={{ color: 'red' }}></i>
-              </div>
-            )}
+                    {/* success */}
+                    {showAlert && (
+                        <div className="alert alert-success" role="alert">
+                            Message successfully sent. Thank you!
+                        </div>
+                    )}
+                    {/* errors */}
+                    {errorMessage && (
+                        <div className="alert alert-danger" role="alert">
+                            Invalid message format. Please check your input<i className="fa fa-frown-o" aria-hidden="true" style={{ color: 'red' }}></i>
+                        </div>
+                    )}
                     {/* contact form */}
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-3">

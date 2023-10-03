@@ -14,7 +14,9 @@ export default function Landing() {
             <br />
           </p>
           <p className=''>No hassle! <br /> Instant Online Booking</p>
-          <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>View more</button>
+          < a href='#about'>
+            <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton' >View more</button>
+          </a>
         </div>
         <div className="col-sm-4 float-start pt-5">
           <img src={image2} className='img-fluid' alt='image 2' id='img-big' />

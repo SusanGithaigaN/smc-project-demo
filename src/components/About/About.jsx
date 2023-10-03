@@ -55,7 +55,9 @@ export default function About() {
                                     </ul>
                                 </div>
                             </div>
-                            <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
+                            <a href='#contact'>
+                                <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +86,9 @@ export default function About() {
                                     </ul>
                                 </div>
                             </div>
-                            <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
+                            <a href='#contact'>
+                                <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
+                            </a>
                         </div>
                     </div>
                 </div>
