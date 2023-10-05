@@ -61,7 +61,7 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-3">
                             <label htmlFor="name" className="form-label">Name </label>
-                            <input type="text" className="form-control" id="exampleInputname" placeholder='jane doe' name='user_name' pattern="^[a-zA-Z\s]+$" required />
+                            <input type="text" className="form-control" id="exampleInputname" placeholder='Your name' name='user_name' pattern="^[a-zA-Z\s]+$" required />
                         </div>
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Email </label>
