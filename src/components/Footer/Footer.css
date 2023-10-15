@@ -1,0 +1,11 @@
+#mc-embedded-subscribe{
+    background-color: #FBE418 !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+#mc-embedded-subscribe:hover {
+    box-shadow: 0 0 0 5px #00008B !important;
+    background-color: #00008B !important;
+    color: white !important;
+}
