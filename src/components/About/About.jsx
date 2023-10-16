@@ -1,6 +1,7 @@
 import './About.css'
 import illustration from '../images/Illustration-Home.svg'
 import office from '../images/Illustratioon-Office-1.svg'
+import prices from './prices.png'
 
 export default function About() {
     return (
@@ -55,8 +56,17 @@ export default function About() {
                                     </ul>
                                 </div>
                             </div>
-                            <a href='#contact'>
-                                <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
+                            {/* just download image
+                            <a href={prices} download>
+                                <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id="but-ton">
+                                    View and Download Image
+                                </button>
+                            </a> */}
+                            
+                            <a href={prices} rel='noreferrer' target="_blank">
+                                <button type="submit" className="btn btn-lg fw-bold rounded-pill mt-5" id="but-ton" src="https://example.com/image.png">
+                                    View Prices
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -86,8 +96,10 @@ export default function About() {
                                     </ul>
                                 </div>
                             </div>
-                            <a href='#contact'>
-                                <button type="button" className="btn btn-lg fw-bold rounded-pill mt-5" id='but-ton'>Learn more</button>
+                            <a href={prices} rel='noreferrer' target="_blank">
+                                <button type="submit" className="btn btn-lg fw-bold rounded-pill mt-5" id="but-ton" src="https://example.com/image.png">
+                                    View Prices
+                                </button>
                             </a>
                         </div>
                     </div>
